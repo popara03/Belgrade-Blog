@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Beograd Blog - Kontakt stranica</title>
+    <meta name="description" content="Kontaktirajte nas u koliko imate novi sadržaj o Beogradu, koji biste voleli da vidite na našem blogu."/>
+    <meta name="keywords" content="naše sedište, Mira Popare 23, Banovo Brdo, lokacija, kontakt, forma"/>
+    <meta name="author" content="Miloš Popara"/>
+    <link rel="icon" href="assets/ikonica/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img src="assets/slike/grb.png" alt="grb-beograda"/>
+                <h1>Beograd</h1>
+            </a>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Početna</a><div class="line"></div></li>
+                <li><a href="blog.html">Blog</a><div class="line"></div></li>
+                <li><a href="kontakt.html">Kontakt</a><div class="line"></div></li>
+                <li><a href="autor.html">Autor</a><div class="line"></div></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="cover">
+            <p>Kontaktirajte nas</p>
+        </div>
+        <div id="papa-container">
+            <div id="contact-container">
+                <form action="#" method="get" title="kontakt-forma" id="kontakt-forma" name="kontakt-forma">
+                    <input type="text" name="tb1" id="tb1" placeholder="Ime" required/>
+                    <input type="email" name="tb2" id="tb2" placeholder="e-Mail" required/>
+                    <textarea name="mb1" id="mb1" placeholder="Poruka" ></textarea>
+                    <div>
+                        <input type="submit" value="Pošaljite">
+                        <input type="reset" value="Obrišite">
+                    </div>
+                </form>
+                <div id="mapa">
+                    <p>Naše sedište</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5665.057373878451!2d20.416784!3d44.770026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6e2bcf84fc95%3A0x209af1ba3400f4b9!2z0JzQuNGA0LAg0J_QvtC_0LDRgNC1IDIzLCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1638910940731!5m2!1ssr!2srs" width="700" height="400" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="copy"> &copy;Popara 2021.</p>
+        <div id="socials">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i id="fb" class="zmdi zmdi-facebook-box"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i id="ig" class="zmdi zmdi-instagram"></i>
+                </a>
+            </div>
+            <div>
+                <a href="rss.xml" target="_blank">
+                    <i id="rss" class="zmdi zmdi-rss"></i>   
+                </a>
+            </div>
+            <div>
+                <a href="sitemap.xml" target="_blank">
+                    <i id="smap" class="zmdi zmdi-device-hub"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

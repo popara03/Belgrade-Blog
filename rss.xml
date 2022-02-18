@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Obaveštenja o izmenama na Beograd Blogu</title>
+        <link>https://beograd-blog.netlify.app/</link>
+        <description>Blog o prestonici Srbije</description>
+        <item>
+            <title>Početna stranica</title>
+            <link>https://beograd-blog.netlify.app/index.html</link>
+            <description>Početna stranica - Beograd Blog</description>
+        </item>
+        <item>
+            <title>Blog stranica</title>
+            <link>https://beograd-blog.netlify.app/blog.html</link>
+            <description>Blog stranica - Beograd blog</description>
+        </item>
+    </channel>
+</rss>

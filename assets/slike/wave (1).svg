@@ -1,0 +1,10 @@
+<svg width="1440" height="320" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path fill="#14213D" d="m0,256l1440,-192l0,256l-1440,0l0,-64z" id="svg_1"/>
+  <g fill="#32320F">
+   <path d="m0,96l1440,-96l0,320l-1440,0l0,-224z" fill="#14213d"/>
+  </g>
+ </g>
+
+</svg>
